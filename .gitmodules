@@ -1,0 +1,3 @@
+[submodule "3-molecular-design-parsl-demo"]
+	path = 3-molecular-design-parsl-demo
+	url = https://github.com/ExaWorks/molecular-design-parsl-demo
