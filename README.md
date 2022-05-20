@@ -18,6 +18,58 @@ We first introduce the ExaWorks component tools and explain their key capabiliti
 
 ## Writing Ensemble Applications with RCT
 
+- [Presentation]()
+
+- Preparing the environment:
+
+```sh
+cd $HOME/tutorial/
+.  1-ensemble-rct.env
+cd 1-ensemble-rct
+make clean
+```
+
+- The tutorial folder has the following content:
+```sh
+makefile                 - provides 'make clean' to reset folder
+orig                     - backup of original files
+radical_entk_1.py        - first tutorial example
+solution_1.1.py            - solution to first exercise
+solution_1.2.py            - solution to second exercise
+solution_1.3.py            - solution to second exercise
+radical_entk_2.py        - second tutorial example
+solution_2.1.py            - solution to first exercise
+```
+
 ## Swift/T Workflow Tutorial
 
+- [Presentation]()
+
 ## Writing Model-in-the-Loop Applications with Parsl
+
+- [Presentation]()
+
+- Instructions (as a Jupyter notebook) are available in the [GitHub repository](https://github.com/ExaWorks/molecular-design-parsl-demo)
+
+- Preparing pre-configured Conda environment:
+```sh
+cd $HOME/tutorial/
+.  3-molecular-design-parsl-demo.env
+cd 3-molecular-design-parsl-demo
+git pull
+```
+
+- Alternatively, you can configure your own Conda environment (note this will take several minutes): 
+```sh
+conda env create --file environment.yml
+```
+
+ The tutorial folder has the following content:
+```sh
+data                                - Sample molecule data from QM9
+figures                             - Figures for the notebook
+chemfunctions.py                    - Python functions for chemistry tasks
+environment.yml                     - Conda environment file
+molecular-design-with-parsl.ipynb   - Tutorial notebook
+setup.py                            - Install chemfunctions
+```
