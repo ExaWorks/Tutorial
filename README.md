@@ -65,7 +65,7 @@ conda env create --file environment.yml
 ```
 
  The tutorial folder has the following content:
-```sh
+```
 data                                - Sample molecule data from QM9
 figures                             - Figures for the notebook
 chemfunctions.py                    - Python functions for chemistry tasks
