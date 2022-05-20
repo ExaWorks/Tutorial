@@ -47,7 +47,7 @@ solution_2.1.py            - solution to first exercise
 
 ## Writing Model-in-the-Loop Applications with Parsl
 
-- [Presentation]()
+- [Presentation](https://github.com/ExaWorks/Tutorial/blob/main/presentations/04-parsl.pdf)
 
 - Instructions (as a Jupyter notebook) are available in the [GitHub repository](https://github.com/ExaWorks/molecular-design-parsl-demo)
 
