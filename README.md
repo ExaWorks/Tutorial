@@ -8,7 +8,7 @@ This tutorial addresses key challenges in the creation of diverse workflows that
 
 We first introduce the ExaWorks component tools and explain their key capabilities. Through common workflow motifs and their instantiation, we  describe common challenges and best-practices for developing and deploying HPC workflows.
 
-- [Presentation]()
+- [Presentation](https://github.com/ExaWorks/Tutorial/blob/main/presentations/01-introduction.pdf)
 
 ## Preparing the Tutorial Environment
 
