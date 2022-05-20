@@ -18,7 +18,7 @@ We first introduce the ExaWorks component tools and explain their key capabiliti
 
 ## Writing Ensemble Applications with RCT
 
-- [Presentation]()
+- [Presentation](https://github.com/ExaWorks/Tutorial/blob/main/presentations/02-rct.pdf)
 
 - Preparing the environment:
 
