@@ -43,7 +43,95 @@ solution_2.1.py            - solution to first exercise
 
 ## Swift/T Workflow Tutorial
 
-- [Presentation]()
+- [Presentation](https://github.com/ExaWorks/Tutorial/blob/main/presentations/03-swift-t.pdf)
+
+- Documentation
+    - [Swift/T Home Page](http://swift-lang.org/Swift-T)
+    - [Swift/T Guide (installation, language, etc.)](https://swift-lang.github.io/swift-t/guide.html)
+    - [Swift/T Sites Guide (running on scheduled systems)](https://swift-lang.github.io/swift-t/sites.html)
+
+- Simple checkout, setup, example 01
+
+```sh
+cd Tutorial/swift-t
+source swift_demo.env  # May produce warnings about Conda, ignore them
+```
+
+- Quick use example
+```sh
+$ swift-t -E 'trace(42);'
+trace: 42
+
+$ ls
+01-hello  02-loop  04-py  05-numpy
+$ cd 01-hello
+$ cat hello.swift  
+
+/**
+  Example 1 - HELLO.SWIFT
+*/
+
+import io;
+printf("Hello world!");
+
+$ swift-t hello.swift 
+```
+
+- Setup
+```
+$ swift-t -v
+STC: Swift-Turbine Compiler 0.9.0
+         for Turbine: 1.3.0
+Using Java VM:    /usr/bin/java
+Using Turbine in: /home/developer/Public/sfw/swift-t/turbine
+
+Turbine 1.3.0
+ installed:    /home/developer/Public/sfw/swift-t/turbine
+ source:       /home/developer/woz/swift-t/turbine/code
+ using CC:     /usr/lib64/openmpi/bin/mpicc
+ using MPI:    /usr/lib64/openmpi/lib mpi "OpenMPI"
+ using Tcl:    /home/developer/Public/sfw/Anaconda3/bin/tclsh8.6
+ using Python: /home/developer/Public/sfw/Anaconda3/lib python3.8
+```
+
+- Examples 02, 04, 05
+
+```sh
+# 02-loop
+$ ./run.sh -n 8 loop.swift
+
+# 04-numpy
+$ swift-t add.swift
+
+# 05-numpy 
+$ swift-t numpy.swift
+```
+
+- CANDLE/Supervisor example
+
+```sh
+$ git clone https://github.com/ECP-CANDLE/Benchmarks.git
+$ cd Benchmarks
+$ git checkout develop
+$ cd ..
+$ git clone https://github.com/ECP-CANDLE/Supervisor.git
+$ cd Supervisor
+$ git checkout develop
+$ cd ..
+
+# Run setup script
+$ SC21-Tutorial/swift-t/candle-setup.sh path/to/Benchmarks
+
+# Add Python:
+$ PATH=/home/developer/Public/sfw/Anaconda3:$PATH
+
+$ cd Benchmarks/Pilot1/NT3
+$ nice python3 nt3_baseline_keras2.py
+
+# UPF: Unrolled Parameter File (simple list of hyperparameters to run)
+$ cd Supervisor/workflows/upf
+$ nice test/upf-1.sh nt3 local
+```
 
 ## Writing Model-in-the-Loop Applications with Parsl
 
