@@ -12,6 +12,10 @@ We first introduce the ExaWorks component tools and explain their key capabiliti
 
 ## Preparing the Tutorial Environment
 
+### Docker
+
+### Virtual Machines
+
 ## Writing Ensemble Applications with RCT
 
 ## Swift/T Workflow Tutorial
