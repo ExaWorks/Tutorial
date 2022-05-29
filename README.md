@@ -74,8 +74,10 @@ solution_2.1.py            - solution to first exercise
 - Simple checkout, setup, example 01
 
 ```sh
-cd Tutorial/swift-t
-source swift_demo.env  # May produce warnings about Conda, ignore them
+$ cd ~/tutorial/2-workflow-dl-swift
+$ git pull
+$ source ~/tutorial/2-workflow-dl-swift/2-workflow-dl-swift/swift_demo.env
+# May produce warnings about Conda, ignore them
 ```
 
 - Quick use example
@@ -115,11 +117,14 @@ Turbine 1.3.0
  using Python: /home/developer/Public/sfw/Anaconda3/lib python3.8
 ```
 
-- Examples 02, 04, 05
+- Examples 02, 03, 04, 05
 
 ```sh
 # 02-loop
 $ ./run.sh -n 8 loop.swift
+
+# 03-dag
+$ ./run.sh
 
 # 04-numpy
 $ swift-t add.swift
