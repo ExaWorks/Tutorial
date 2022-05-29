@@ -78,6 +78,7 @@ $ cd ~/tutorial/2-workflow-dl-swift
 $ git pull
 $ source ~/tutorial/2-workflow-dl-swift/2-workflow-dl-swift/swift_demo.env
 # May produce warnings about Conda, ignore them
+$ cd ~/tutorial/2-workflow-dl-swift/2-workflow-dl-swift
 ```
 
 - Quick use example
