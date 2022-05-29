@@ -69,7 +69,7 @@ solution_2.1.py            - solution to first exercise
 ## Swift/T Workflow Tutorial
 
 - [Presentation](https://docs.google.com/presentation/d/1eCn1OnM8G1q2Aznv1L5qAc76kIKVlbOG-ydUj95YjL4)
-- [Workflow Scripts](https://github.com/ExaWorks/SC21-Tutorial)
+- [Workflow Scripts](https://github.com/ExaWorks/SC21-Tutorial/tree/main/2-workflow-dl-swift)
 
 - Documentation
     - [Swift/T Home Page](http://swift-lang.org/Swift-T)
