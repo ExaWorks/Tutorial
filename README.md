@@ -64,7 +64,7 @@ solution_2.1.py            - solution to first exercise
 
 ## Swift/T Workflow Tutorial
 
-- [Presentation](https://docs.google.com/presentation/d/1eCn1OnM8G1q2Aznv1L5qAc76kIKVlbOG-ydUj95YjL4/edit#slide=id.g12ff20db4f4_0_12)
+- [Presentation](https://docs.google.com/presentation/d/1eCn1OnM8G1q2Aznv1L5qAc76kIKVlbOG-ydUj95YjL4)
 
 - Documentation
     - [Swift/T Home Page](http://swift-lang.org/Swift-T)
