@@ -91,7 +91,7 @@ $ swift-t -E 'trace(42);'
 trace: 42
 
 $ ls
-01-hello  02-loop  04-py  05-numpy
+01-hello  02-loop  03-dag 04-py  05-numpy
 $ cd 01-hello
 $ cat hello.swift  
 
