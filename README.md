@@ -10,7 +10,22 @@ We first introduce the ExaWorks component tools and explain their key capabiliti
 
 - [Presentation](https://github.com/ExaWorks/Tutorial/blob/main/presentations/01-introduction.pdf)
 
-## Preparing the Tutorial Environment
+## AWS Instances
+
+# Logging in:  ssh -v developer@<ipaddr>
+# password: m6a.}Ge-N^?$&8bn
+
+- 18.118.252.230  
+- 52.15.64.78     
+- 3.143.254.147   
+- 3.138.175.99    
+- 18.117.145.82   
+- 3.133.142.87    
+- 3.145.42.115    
+- 52.14.166.175   
+- 18.189.157.171  
+- 18.217.114.75
+
 
 ### Docker
 
