@@ -12,8 +12,10 @@ We first introduce the ExaWorks component tools and explain their key capabiliti
 
 ## AWS Instances
 
-# Logging in:  ssh -v developer@<ipaddr>
-# password: m6a.}Ge-N^?$&8bn
+```
+Logging in:  ssh -v developer@<ipaddr>
+password:    m6a.}Ge-N^?$&8bn
+```
 
 1. 18.118.252.230  
 1. 52.15.64.78     
