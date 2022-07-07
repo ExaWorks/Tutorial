@@ -18,14 +18,6 @@ password:    m6a.}Ge-N^?$&8bn
 ```
 
 
-### Docker
-
-### Virtual Machines
-
-See our Wiki for information on the AWS instances we will be using today:
-
-https://github.com/ExaWorks/Tutorial/wiki
-
 ## Writing Ensemble Applications with RCT
 
 - [Presentation](https://github.com/ExaWorks/Tutorial/blob/main/presentations/02-rct.pdf)
